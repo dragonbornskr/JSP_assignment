@@ -1,0 +1,12 @@
+<!DOCTYPE html PUBLIC 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>PageContextExample</title>
+</head>
+<body>
+<% pageContext.setAttribute("course","JSP",pageContext.PAGE_SCOPE);
+String name = (String)pageContext.getAttribute("course");
+out.println("Course name is " +name);%>
+</body>
+</html>
