@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html;"%>
+<!DOCTYPE html PUBLIC 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;">
+<title>Config Object Example</title>
+</head>
+<body>
+<% String servletName = config.getServletName();
+out.println("Servlet Name is " + servletName);%>
+</body>
+</html>
